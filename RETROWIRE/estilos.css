@@ -1,0 +1,983 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+    margin: 0;
+}
+
+.logo{
+height: 60px;
+width: 170px;
+float: left;
+padding: 1%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 10px 0px #181818;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2em 2em;
+    text-decoration: none;
+    font-size: 115%;
+  }
+  
+li a:hover {
+    background-color: #e2e2e2;
+  }
+
+.carrito{
+  height: 50px;
+  width: 100px;
+  background-color: brown;
+  color: #ffffff;
+  border: none;
+  font-style: italic;
+
+  border-radius: 10px;
+
+  float: right;
+  margin-top: 1.5%;
+  margin-right: -25%; 
+}
+
+.input {
+  float: right;
+  margin-top: 1.5%;
+  margin-right: 15%;
+  width: 290px;
+  height: 50px;
+  background-color: #cacaca;
+  color: #141414;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 2px -18px;
+}
+  
+  
+input:hover {
+  outline: 1px solid lightgrey;
+}
+
+.carrusel{
+  margin-top: 5%;
+  height: 26em;
+  width: auto;
+  box-shadow: 0px 13px 15px -11px #181818;
+ 
+}
+
+
+
+
+div.carrusel > img{
+ width: 100%;
+ height: 100%;
+}
+
+
+
+
+
+
+/*div best sellers*/
+#best{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 5px 10px rgb(53, 53, 53);;
+}
+
+/*header best sellers*/
+.bsell{
+  margin: 0;
+  text-align: center;
+  padding-top: 3%;
+}
+
+
+#best > img{
+  height: 20%;
+  width: 20%;
+  margin: 6.5%;
+  box-shadow: 0px 0px 25px 5px;
+}
+
+
+
+.titnovedades{
+  color: #131313;
+  text-align: center;
+  padding: 3%;
+}
+
+
+#novedades > img{
+  height: 15%;
+  width: 15%;
+  margin: 2.4%;
+  box-shadow: 0px 0px 25px 5px;
+}
+
+.pagos{
+  height: 20em;
+  width: auto;
+  background-color: #141414;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.pagos{
+  height: 27em;
+  width: auto;
+  background-color: #141414;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.pagos > h1{
+ padding-top: 2%;
+ font-style: italic;
+}
+
+.pagos > p{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #f5f5f5;
+  margin-top: 2%;
+ }
+
+ .pagosubdiv{
+  width: auto;
+  height: 55%;
+
+  margin-top: -3%;
+ }
+
+ .pagoscubo{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 27%;
+  height: 50%;
+  background-color: #ffffff;
+  float: left;
+  
+ }
+
+ .pagoscubo > h1{
+  margin-top: 7%;
+  font-style: italic;
+  color: #131313;
+ }
+
+ .pagoscubo > img{
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+ }
+
+
+.suscribete{
+  background-image: url(Fotos/suscribete.png);
+  background-size: 115%;
+  height: 9em;
+  width: auto;
+  margin: 0;
+  padding: 10px;
+}
+
+.suscribete > h1{
+  color: #f5f5f5;
+  margin-top: 1%;
+  margin-left: 25%;
+  font-style: italic;
+  text-shadow: 5px 3px 5px black;
+}
+
+.suscribete > p{
+  color: #f5f5f5;
+  width: 18%;
+  text-align: left;
+  margin-top: 0%;
+  margin-left: 25%;
+  font-style: italic;
+  text-shadow: 3px 3px 3px black;
+}
+
+.Email {
+  width: 400px;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .15rem .5rem;
+  min-height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  float: right;
+  margin-top: -4%;
+  margin-right: 30%;
+}
+
+.Email:hover {
+  outline: 1px solid lightgrey;
+}
+
+.boton{
+  width: 5%;
+  height: 25%;
+  float: right;
+  margin-top: -4%;
+  margin-right: 24%;
+}
+
+.footindex{
+height: 20em;
+width: auto;
+background-color: #ffffff;
+}
+
+.footenlazes{
+  margin-left: 5%;
+  background-color: #ffffff;
+  width: 20em;
+  height: 20em;
+  float: left;
+}
+
+.footenlazes > img{
+  height: 60px;
+  width: 170px;
+  float: left;
+  margin-top: 10%;
+}
+
+.foterlogos > img{
+ height: 200px;
+ float: right;
+ margin-top: -13%;
+ margin-right: 5%;
+
+}
+
+
+footer{
+
+  margin: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#best > img:hover{
+  opacity: 80%;
+}
+
+#novedades > img:hover{
+  opacity: 80%;
+}
+
+.header-foto{
+  height: 400px;
+  width: auto;
+  background-image: url(Fotos/juegos.png);
+
+}
+
+.header-text{
+  float: left;
+  color: #f5f5f5;
+  margin-top: 11%;
+  margin-left: 10%;
+  font-style: italic;
+  text-shadow: 5px 3px 5px black;
+  font-size: 80px;
+}
+
+.ganktank{
+  height: 400px;
+  width: auto;
+}
+
+.ganktank > p{
+  width: 30%;
+  text-align: justify;
+}
+.ganktank > h1{
+ margin-top: 5%;
+ margin-left: 9.8%;
+}
+.ganktank > img{
+  float: right;
+  height: 70%;
+  width: 20%;
+  margin-top: -17%;
+  margin-right: 6%;
+}
+
+.juegos{
+ height: 400px;
+ width: auto;
+ background-color: rgb(255, 255, 255);
+}
+
+.juegos > img{
+  float: right;
+  height: 70%;
+  width: 18%;
+  margin-top: 4%;
+  margin-right: 6%;
+}
+
+.juegos2 > img{
+  float: left;
+  height: 70%;
+  width: 18%;
+  margin-top: 4%;
+  margin-left: 6%;
+}
+
+.juegos > h1{
+  margin-left: 9.8%;
+  float: left;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.juegos2 > h1{
+  float: right;
+  margin-right: 5%;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.juegos > p{
+  margin-left: -17%;
+  float: left;
+  font-style: italic;
+  width: 40%;
+  margin-top: 10%;
+  text-align: justify;
+}
+
+.juegos3{
+ height: 400px;
+ width: auto;
+ background-color: rgb(255, 255, 255);
+}
+
+.juegos3 > img{
+  float: left;
+  height: 70%;
+  width: 18%;
+  margin-top: 4%;
+  margin-left: 30%;
+}
+
+.juegos3 > h1{
+  margin-left: 9.8%;
+  float: left;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.juegos3 > p{
+  margin-left: -28%;
+  float: left;
+  font-style: italic;
+  width: 35%;
+  margin-top: 10%;
+  text-align: justify;
+}
+
+.juegos2 > p{
+  margin-right: -34%;
+  float: right;
+  font-style: italic;
+  width: 40%;
+  margin-top: 10%;
+  text-align: justify;
+}
+
+.juegos2{
+  height: 400px;
+  width: auto;
+}
+
+
+.arreglo > p{
+ margin-right: -18%;
+}
+
+.arreglo > h1{
+  margin-right: 8%;
+ }
+
+
+ .arreglo2 > p{
+  margin-right: -13%;
+ }
+ 
+ .arreglo2 > h1{
+   margin-right: 8%;
+  }
+
+  .mega > p{
+    margin-left: -19.8%;
+    float: left;
+    font-style: italic;
+    width: 40%;
+    margin-top: 10%;
+    text-align: justify;
+   }
+
+.carousel {
+  display: flex;
+  float: right;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  margin-right: 10%;
+  margin-top: -19%;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+
+
+
+
+
+/* Manual */
+
+/* Primera parte */
+
+.manualdiv {
+  width: auto;
+  height: 450px;
+}
+
+h1.titulo_manual {
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.manualdiv > p {
+  width: 40%;
+  text-align: justify;
+}
+
+.manualdiv > img {
+  width: 30%;
+  height: 40%;
+  margin-right: 10%;
+  margin-top: -16%;
+  float: right;
+}
+
+/* Segunda parte */
+
+.manual2div{
+  width: auto;
+  height: 750px;
+  background-color: white;
+}
+
+h1.titulo2_manual {
+  margin-right: 10%;
+  padding-top: 3%;
+  font-size: 60px;
+  font-style: italic;
+  text-align: right;
+}
+
+.manual2div > p {
+  width: 40%;
+  text-align: justify;
+  margin-left: 50%;
+}
+
+.manual2div > img {
+  width: 25%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: -30%;
+  float: left;
+}
+
+/* Tercera parte */
+.manual3div {
+  width: auto;
+  height: 2000px;
+  text-align: justify;
+}
+
+h1.titulo3_manual {
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.manual3div > p {
+  width: 40%;
+  text-align: justify;
+}
+
+.manual3div > p.punto2 {
+  margin-top: 3%;
+}
+
+.manual3div > p.punto3 {
+  margin-top: 3%;
+}
+
+.manual3div > p.punto4 {
+  margin-top: 3%;
+}
+
+.manual3div > p.punto5 {
+  margin-top: 3%;
+}
+
+.manual3div > p.punto6 { 
+  margin-top: 3%;
+}
+
+.manual3div > p.punto7 {
+  margin-top: 3%;
+}
+
+img.interruptores {
+  width: 20%;
+  height: 50%;
+  margin-top: -16%;
+  margin-left: 1200px;
+}
+
+
+
+.foto1{
+  height: 20%;
+  width: 20%;
+  float: right;
+  margin-top: -25%;
+  margin-right: 12%;
+  box-shadow: 1px 1px 15px 3px rgb(158, 158, 158);
+}
+
+.foto2{
+  height: 20%;
+  width: 20%;
+  float: right;
+  margin-top: -5%;
+  margin-right: 12%;
+  box-shadow: 1px 1px 15px 3px rgb(158, 158, 158);
+}
+
+.foto3{
+  height: 20%;
+  width: 20%;
+  float: right;
+  margin-top: 10%;
+  margin-right: -20%;
+  box-shadow: 1px 1px 15px 3px rgb(158, 158, 158);
+}
+
+
+
+
+ /* Sobre nosotros */
+
+/* Primera parte */
+div.caja_primera {
+  border: 0.1px solid black;
+  background-image: url(Fotos/juegos.png);
+  height: 280px;
+  color: white;
+  margin-top: 98px;
+}
+
+div.caja_primera > h1, p {
+  margin-left: 10%;
+}
+
+div.caja_primera > hr {
+  border: 3px solid white;
+  width: 14%;
+  margin-left: 10%;
+}
+
+.p_sobrenosotros {
+  text-align: justify;
+  width: 50%;
+  margin-left: 10%;
+
+}
+
+div.caja_primera > img {
+  width: 220px;
+  height: 250px;
+  margin-left: 80%;
+  margin-top: -11.5%;
+}
+
+/* Segunda parte */
+
+div.segunda_parte > h1 {
+  margin-top: 3%;
+  margin-left: 10%;
+
+}
+
+div.segunda_parte > hr {
+  border: 3px solid black;
+  width: 8%;
+  margin-left: 10%;
+}
+
+div.caja_segunda {
+  border: 1px solid black;
+  background-image: url(Fotos/pacman.png);
+  background-size: 35%;
+  opacity: 1;
+  margin-top: 3%;
+  height: 600px;
+}
+
+div.caja_segunda > img {
+  margin-top: -1.5%;
+  margin-left: 20%;
+  width: 360px;
+  height: 600px;
+}
+
+
+/* Tercera parte */
+
+div.tercera_parte > h1 {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+div.tercera_parte > hr {
+  border: 3px solid black;
+  width: 15%;
+  margin-left: 10%;
+}
+
+div.caja_tercera {
+  margin-top: 3%;
+  height: 900px;
+}
+
+div.valores {
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin: 2%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+/* Autenticidad */
+h3.autenticidad {
+  text-align: center;
+}
+
+hr.linea_autenticidad {
+  width: 16%;
+  border: 2px solid black;
+}
+
+p.p_autenticidad {
+  text-align: justify;
+  padding-top: 5%;
+  margin-right: 2%;
+  font-size: 90%;
+  width: 80%;
+}
+
+
+/* Innovación */
+h3.innovacion {
+  text-align: center;
+}
+
+hr.linea_innovacion {
+  width: 16%;
+  border: 2px solid black;
+}
+
+p.p_innovacion {
+  text-align: justify;
+  padding-top: 5%;
+  margin-right: 2%;
+  font-size: 90%;
+  width: 80%;
+}
+
+.foto_innovacion {
+  margin-left: 70%;
+}
+
+/* Pasión */
+h3.pasion {
+  text-align: center;
+}
+
+hr.linea_pasion {
+  width: 16%;
+  border: 2px solid black;
+}
+
+p.p_pasion {
+  text-align: justify;
+  padding-top: 5%;
+  margin-right: 2%;
+  font-size: 90%;
+  width: 80%;
+}
+
+.foto_pasion {
+  margin-top: -2%;
+  margin-left: 5%;
+}
+
+/* Calidad */
+h3.calidad {
+  text-align: center;
+}
+
+hr.linea_calidad{
+  width: 16%;
+  border: 2px solid black;
+}
+
+p.p_calidad {
+  text-align: justify;
+  padding-top: 5%;
+  margin-right: 2%;
+  font-size: 90%;
+  width: 80%;
+}
+
+.foto_calidad {
+  margin-left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Contacto-principal{
+  width: auto;
+  height: 720px;
+  
+  
+}
+
+.cubocontacto{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 32%;
+  height: 90%;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 15px 3px rgb(104, 104, 104);
+}
+
+.cubocontacto > img{
+  height: 500px;
+  float: right;
+  margin-top: -90%;
+  margin-right: -150%;
+  box-shadow: 1px 1px 15px 3px rgb(29, 29, 29);
+}
+
+.Contacto-principal > p{
+
+  float: right;
+  margin-right: 42.2%;
+  margin-top: -3%;
+
+}
+
+div.cubocontacto > .ubi_retrowire, .ubi_av, .tlf {
+  font-size: 90%;
+  padding-left: 10%;
+  text-align: left;
+}
+
+div.cubocontacto > .ubi_retrowire {
+  padding-top: 7%;
+}
+
+div.cubocontacto > .ubi_av {
+  color: gray;
+}
+
+div.email {
+  font-size: 60%;
+  padding-top: 2%;
+  text-align: left;
+  padding-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.preguntasdiv{
+  width: auto;
+  height: 1000px;
+}
+
+.titcoment{
+  margin-left: 68%;
+  margin-top: 2%;
+}
+
+.divcoments{
+  overflow: auto;
+  height: 500px;
+  width: 500px;
+  background-color: #cacaca;
+  float: right;
+  margin-top: 20px;
+  margin-right: 90px;
+  box-shadow: 1px 1px 15px 3px rgb(158, 158, 158);
+}
+
+.enviarcoment{
+  float: right;
+
+  margin-right: -27%;
+  margin-top: 30%;
+}
+
+
+.bodyreenv{
+  text-align: center;
+
+ 
+}
+
+.divreenv > img{
+  margin-top: 60px;
+}
+
+.divreenv > a{
+  background-color: brown;
+  padding: 15px 15px;
+  color: #e2e2e2;
+  border-radius: 5px;
+  
+}
+
+.header-reen-foto{
+  height: 400px;
+  width: auto;
+  background-image: url(Fotos/juegos.png);
+  margin-bottom: 5%;
+
+}
+
+.header-reen-text{
+  float: left;
+  color: #f5f5f5;
+  margin-top: 11%;
+  margin-left: 10%;
+  font-style: italic;
+  text-shadow: 5px 3px 5px black;
+  font-size: 80px;
+}
+
+.qna{
+  background-color: #bebebe;
+  height: 900px;
+  width: 700px;
+  margin-left: 10%;
+  margin-bottom: 7%;
+  margin-top: -50%;
+  padding: 40px;
+  text-align: justify;
+}
+
+
