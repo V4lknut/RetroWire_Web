@@ -1,2 +1,2 @@
 # RetroWire_Web
-Pagina web promocional para projecto de sintesi SMXa
+Página web promocional para projecto de sintesi SMXa
